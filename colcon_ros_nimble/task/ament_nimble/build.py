@@ -19,7 +19,7 @@ logger = colcon_logger.getChild(__name__)
 
 
 class AmentNimbleBuildTask(TaskExtensionPoint):
-    """Build ROS packages with the build type 'ament_cmake'"""
+    """Build ROS packages with the build type 'ament_nimble'"""
 
     def __init__(self):
         super().__init__()
