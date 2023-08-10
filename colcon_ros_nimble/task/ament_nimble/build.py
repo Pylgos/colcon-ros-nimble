@@ -39,7 +39,7 @@ class AmentNimbleBuildTask(TaskExtensionPoint):
             Path(self.context.args.install_base),
             self.context.pkg.name,
             "AMENT_PREFIX_PATH",
-            self.context.args.install_base,
+            "",
             mode="prepend")
 
         pkg: PackageDescriptor = self.context.pkg
